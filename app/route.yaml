@@ -5,6 +5,7 @@ metadata:
     app: spring-petclinic
   name: spring-petclinic
 spec:
+  host: petclinic.apps.ocp5.stormshift.coe.muc.redhat.com
   port:
     targetPort: 8080-tcp
   to:
